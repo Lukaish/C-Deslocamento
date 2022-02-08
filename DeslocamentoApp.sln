@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeslocamentoApi", "DeslocamentoApp\DeslocamentoApi.csproj", "{ED32A8A0-52EC-4A9B-99A5-7DC64FAED6A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Application", "1-Application", "{503DD14A-3A2F-4ADB-8888-B18ED5F76984}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{7E61FE5B-38A7-4576-BEBA-4CEED2DC724C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Service", "3-Service", "{197F5DAA-93DE-42FE-A507-BA9914CABD1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{CCFD9B87-69A2-41C5-B2EE-D39613303DDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeslocamentoApi.Domain", "Deslocamento.Domain\DeslocamentoApi.Domain.csproj", "{29B82148-185C-43BE-932C-9AE50AA8890F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeslocamentoApi.Data", "Deslocamento.Data\DeslocamentoApi.Data.csproj", "{7E8833E3-B825-44EB-BEBA-0985E0FAD05E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeslocamentoApi.Application", "Deslocamento.Application\DeslocamentoApi.Application.csproj", "{A286627F-3D4E-495D-A41E-2789E494BB6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeslocamentosApi.WebAPI", "DeslocamentosApi.WebAPI\DeslocamentosApi.WebAPI.csproj", "{D562B1D8-B8F1-426A-964E-177B2CF20BAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED32A8A0-52EC-4A9B-99A5-7DC64FAED6A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED32A8A0-52EC-4A9B-99A5-7DC64FAED6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED32A8A0-52EC-4A9B-99A5-7DC64FAED6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED32A8A0-52EC-4A9B-99A5-7DC64FAED6A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B82148-185C-43BE-932C-9AE50AA8890F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B82148-185C-43BE-932C-9AE50AA8890F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B82148-185C-43BE-932C-9AE50AA8890F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B82148-185C-43BE-932C-9AE50AA8890F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E8833E3-B825-44EB-BEBA-0985E0FAD05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8833E3-B825-44EB-BEBA-0985E0FAD05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8833E3-B825-44EB-BEBA-0985E0FAD05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8833E3-B825-44EB-BEBA-0985E0FAD05E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A286627F-3D4E-495D-A41E-2789E494BB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A286627F-3D4E-495D-A41E-2789E494BB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A286627F-3D4E-495D-A41E-2789E494BB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A286627F-3D4E-495D-A41E-2789E494BB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D562B1D8-B8F1-426A-964E-177B2CF20BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D562B1D8-B8F1-426A-964E-177B2CF20BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D562B1D8-B8F1-426A-964E-177B2CF20BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D562B1D8-B8F1-426A-964E-177B2CF20BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29B82148-185C-43BE-932C-9AE50AA8890F} = {7E61FE5B-38A7-4576-BEBA-4CEED2DC724C}
+		{7E8833E3-B825-44EB-BEBA-0985E0FAD05E} = {CCFD9B87-69A2-41C5-B2EE-D39613303DDA}
+		{A286627F-3D4E-495D-A41E-2789E494BB6E} = {503DD14A-3A2F-4ADB-8888-B18ED5F76984}
+		{D562B1D8-B8F1-426A-964E-177B2CF20BAB} = {503DD14A-3A2F-4ADB-8888-B18ED5F76984}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83281C02-2E1B-4CA3-98A1-88757DBE1B78}
+	EndGlobalSection
+EndGlobal

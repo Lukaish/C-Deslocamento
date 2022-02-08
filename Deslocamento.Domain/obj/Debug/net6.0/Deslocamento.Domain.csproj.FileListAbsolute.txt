@@ -1,0 +1,15 @@
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\bin\Debug\net6.0\Deslocamento.Domain.exe
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\bin\Debug\net6.0\Deslocamento.Domain.deps.json
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\bin\Debug\net6.0\Deslocamento.Domain.runtimeconfig.json
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\bin\Debug\net6.0\Deslocamento.Domain.dll
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\bin\Debug\net6.0\ref\Deslocamento.Domain.dll
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\bin\Debug\net6.0\Deslocamento.Domain.pdb
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\obj\Debug\net6.0\Deslocamento.Domain.csproj.AssemblyReference.cache
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\obj\Debug\net6.0\Deslocamento.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\obj\Debug\net6.0\Deslocamento.Domain.AssemblyInfoInputs.cache
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\obj\Debug\net6.0\Deslocamento.Domain.AssemblyInfo.cs
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\obj\Debug\net6.0\Deslocamento.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\obj\Debug\net6.0\Deslocamento.Domain.dll
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\obj\Debug\net6.0\ref\Deslocamento.Domain.dll
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\obj\Debug\net6.0\Deslocamento.Domain.pdb
+C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Domain\obj\Debug\net6.0\Deslocamento.Domain.genruntimeconfig.cache
