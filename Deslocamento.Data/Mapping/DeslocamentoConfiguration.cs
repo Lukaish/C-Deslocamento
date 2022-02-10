@@ -18,7 +18,8 @@ namespace DeslocamentoApi.Data.Mapping
 
             builder.ToTable("Deslocamento");
 
-            builder.Property(d => d.Obersavacao)
+            builder.Property(d => d.Observacao)
+                .IsRequired()
                 .HasColumnName("Observacao")
                 .HasMaxLength(1000);
 
@@ -36,6 +37,23 @@ namespace DeslocamentoApi.Data.Mapping
                .WithMany(d => d.Deslocamentos)
               .HasForeignKey(e => e.ClienteId)
               .HasConstraintName("FK_Carro_Deslocamento_ClienteID");
+
+            builder.Property(d => d.QuilometragemFinal)
+               .HasColumnName("Quilometragem_Final")
+               .HasColumnType("decimal");
+
+            builder.Property(d => d.QuilometragemInicial)
+               .HasColumnName("Quilometragem_Inicial")
+               .IsRequired()
+               .HasColumnType("decimal");
+
+            builder.Property(d => d.DataHoraFim)
+               .HasColumnName("Data_HoraFim")
+               .HasColumnType("datetime");
+
+            builder.Property(d => d.DataHoraRegistro)
+               .HasColumnName("Data_Hora_Inicio")
+               .HasColumnType("datetime");
 
         }
     }

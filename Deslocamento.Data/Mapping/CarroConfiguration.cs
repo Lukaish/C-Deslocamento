@@ -1,4 +1,4 @@
-﻿using DeslocamentoApi.Domain.Entities;
+﻿    using DeslocamentoApi.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;

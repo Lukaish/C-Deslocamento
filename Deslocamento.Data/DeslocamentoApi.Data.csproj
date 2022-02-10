@@ -22,8 +22,4 @@
     <ProjectReference Include="..\Deslocamento.Domain\DeslocamentoApi.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Migrations\" />
-  </ItemGroup>
-
 </Project>

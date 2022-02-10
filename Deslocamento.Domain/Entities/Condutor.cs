@@ -14,6 +14,11 @@ namespace DeslocamentoApi.Domain.Entities
             Email = email;
         }
 
+        private Condutor()
+        {
+
+        }
+
         public string Nome { get; private set; }
         
         public string Email { get; private set; }

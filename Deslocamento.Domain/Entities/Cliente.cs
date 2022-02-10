@@ -14,6 +14,11 @@ namespace DeslocamentoApi.Domain.Entities
             Cpf = cpf;
         }
 
+        private Cliente()
+        {
+
+        }
+
         public string Nome { get; private set; }
 
         public string Cpf { get; private set; }

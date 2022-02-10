@@ -69,9 +69,7 @@ C:\Users\Alunos\source\repos\DeslocamentoApp\DeslocamentosApi.WebAPI\bin\Debug\n
 C:\Users\Alunos\source\repos\DeslocamentoApp\DeslocamentosApi.WebAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Alunos\source\repos\DeslocamentoApp\DeslocamentosApi.WebAPI\bin\Debug\net6.0\DeslocamentoApi.Application.dll
 C:\Users\Alunos\source\repos\DeslocamentoApp\DeslocamentosApi.WebAPI\bin\Debug\net6.0\DeslocamentoApi.Data.dll
-C:\Users\Alunos\source\repos\DeslocamentoApp\DeslocamentosApi.WebAPI\bin\Debug\net6.0\DeslocamentoApi.dll
 C:\Users\Alunos\source\repos\DeslocamentoApp\DeslocamentosApi.WebAPI\bin\Debug\net6.0\DeslocamentoApi.Domain.dll
 C:\Users\Alunos\source\repos\DeslocamentoApp\DeslocamentosApi.WebAPI\bin\Debug\net6.0\DeslocamentoApi.Application.pdb
 C:\Users\Alunos\source\repos\DeslocamentoApp\DeslocamentosApi.WebAPI\bin\Debug\net6.0\DeslocamentoApi.Data.pdb
 C:\Users\Alunos\source\repos\DeslocamentoApp\DeslocamentosApi.WebAPI\bin\Debug\net6.0\DeslocamentoApi.Domain.pdb
-C:\Users\Alunos\source\repos\DeslocamentoApp\DeslocamentosApi.WebAPI\bin\Debug\net6.0\DeslocamentoApi.pdb

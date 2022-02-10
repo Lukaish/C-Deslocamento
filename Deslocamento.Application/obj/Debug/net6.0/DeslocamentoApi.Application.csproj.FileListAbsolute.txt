@@ -11,11 +11,9 @@ C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Application\bin\Debug\
 C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Application\bin\Debug\net6.0\ref\DeslocamentoApi.Application.dll
 C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Application\bin\Debug\net6.0\DeslocamentoApi.Application.pdb
 C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Application\bin\Debug\net6.0\DeslocamentoApi.Data.dll
-C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Application\bin\Debug\net6.0\DeslocamentoApi.dll
 C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Application\bin\Debug\net6.0\DeslocamentoApi.Domain.dll
 C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Application\bin\Debug\net6.0\DeslocamentoApi.Data.pdb
 C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Application\bin\Debug\net6.0\DeslocamentoApi.Domain.pdb
-C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Application\bin\Debug\net6.0\DeslocamentoApi.pdb
 C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Application\obj\Debug\net6.0\DeslocamentoApi.Application.csproj.CopyComplete
 C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Application\obj\Debug\net6.0\DeslocamentoApi.Application.dll
 C:\Users\Alunos\source\repos\DeslocamentoApp\Deslocamento.Application\obj\Debug\net6.0\ref\DeslocamentoApi.Application.dll

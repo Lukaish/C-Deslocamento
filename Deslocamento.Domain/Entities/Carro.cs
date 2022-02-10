@@ -15,6 +15,11 @@ namespace DeslocamentoApi.Domain.Entities
             Placa = placa;
         }
 
+        private Carro()
+        {
+
+        }
+
         public string Placa { get; private set;}
 
         public string Descricao { get; private set;}

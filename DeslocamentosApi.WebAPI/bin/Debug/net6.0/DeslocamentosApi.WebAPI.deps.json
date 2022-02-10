@@ -556,23 +556,8 @@
           }
         }
       },
-      "DeslocamentoApi/1.0.0": {
-        "dependencies": {
-          "MediatR": "10.0.1",
-          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.1",
-          "Microsoft.EntityFrameworkCore": "6.0.1",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Swashbuckle.AspNetCore": "6.2.3"
-        },
-        "runtime": {
-          "DeslocamentoApi.dll": {}
-        }
-      },
       "DeslocamentoApi.Application/1.0.0": {
         "dependencies": {
-          "DeslocamentoApi": "1.0.0",
           "DeslocamentoApi.Data": "1.0.0",
           "DeslocamentoApi.Domain": "1.0.0",
           "MediatR": "10.0.1"
@@ -994,11 +979,6 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
-    },
-    "DeslocamentoApi/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "DeslocamentoApi.Application/1.0.0": {
       "type": "project",

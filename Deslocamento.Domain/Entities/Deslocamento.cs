@@ -8,23 +8,29 @@ namespace DeslocamentoApi.Domain.Entities
 {
     public class Deslocamento : BaseEntity
     {
-        public Deslocamento(double quilometragemInicial, string observacao)
+        private decimal quilometragemInicial;
+
+        public Deslocamento(long carroId, long clienteId, long condutorId, decimal quilometragemInicial, string observacao)
         {
+            CarroId = carroId;
+            ClienteId = clienteId;
+            CondutorId = condutorId;
             QuilometragemInicial = quilometragemInicial;
-            Obersavacao = observacao;
+            Observacao = observacao;
             DataHoraRegistro = DateTime.Now;
+
         }
 
-        public Deslocamento()
+        private Deslocamento()
         {
-           
+
         }
 
         public DateTime DataHoraRegistro { get; private set; }
 
-        public string Obersavacao { get; private set; }
+        public decimal QuilometragemInicial { get; private set; }
 
-        public double QuilometragemInicial { get; private set; }
+        public string Observacao { get; private set; }
 
         public long ClienteId { get; private set; }
 
@@ -38,10 +44,16 @@ namespace DeslocamentoApi.Domain.Entities
 
         public Condutor Condutor { get; private set; }
 
+        public DateTime? DataHoraFim { get; private set; }
+        public decimal QuilometragemFinal { get; private set; }
 
+        public void FimDeslocamento(string observacao, decimal quilometragemFinal)
+        {
+            QuilometragemFinal = quilometragemFinal;
+            DataHoraFim = DateTime.Now;
+            Observacao = observacao;
+        }
 
-
-         
 
 
     }

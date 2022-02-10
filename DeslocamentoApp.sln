@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeslocamentoApi.Data", "Des
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeslocamentoApi.Application", "Deslocamento.Application\DeslocamentoApi.Application.csproj", "{A286627F-3D4E-495D-A41E-2789E494BB6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeslocamentosApi.WebAPI", "DeslocamentosApi.WebAPI\DeslocamentosApi.WebAPI.csproj", "{D562B1D8-B8F1-426A-964E-177B2CF20BAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeslocamentosApi.WebAPI", "DeslocamentosApi.WebAPI\DeslocamentosApi.WebAPI.csproj", "{D562B1D8-B8F1-426A-964E-177B2CF20BAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

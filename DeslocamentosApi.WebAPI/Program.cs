@@ -23,7 +23,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 
 var appAssemblie = typeof(
-   DeslocamentoApi.Application.Carros.Commands.AdicionarCarro.AdicionarCarroCommand)
+   DeslocamentoApp.Application.CarrosCommands.CriarCarroCommand)
     .Assembly;
 builder.Services.AddMediatR(appAssemblie);
 

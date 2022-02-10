@@ -13,7 +13,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Deslocamento.Data\DeslocamentoApi.Data.csproj" />
     <ProjectReference Include="..\Deslocamento.Domain\DeslocamentoApi.Domain.csproj" />
-    <ProjectReference Include="..\DeslocamentoApp\DeslocamentoApi.csproj" />
   </ItemGroup>
 
 </Project>

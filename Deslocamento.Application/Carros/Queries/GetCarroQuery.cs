@@ -6,12 +6,12 @@ using Microsoft.EntityFrameworkCore;
 namespace DeslocamentosApi.WebAPI.Controllers
 {
     
-        public class GetCarroQuery : IRequest<Carro>
+        public class GetCarroQuery : IRequest<List<Carro>>
         {
-            public long CarroId { get; set; }
+            
         }
 
-        public class GetCarroQueryHandler : IRequestHandler<GetCarroQuery, Carro>
+        public class GetCarroQueryHandler : IRequestHandler<GetCarroQuery,List<Carro>>
         {
             private readonly IUnitOfWork _unitOfWork;
 
@@ -20,15 +20,15 @@ namespace DeslocamentosApi.WebAPI.Controllers
                 _unitOfWork = unitOfWork;
             }
 
-            public async Task<Carro> Handle(GetCarroQuery request, CancellationToken cancellationToken)
+            public async Task<List<Carro>> Handle(GetCarroQuery request, CancellationToken cancellationToken)
             {
-                var repositoryDocumento = _unitOfWork.GetRepository<Carro>();
+                var repositoryCarro = _unitOfWork.GetRepository<Carro>();
 
-                var documento = await repositoryDocumento
-                    .FindBy(d => d.Id == request.CarroId)
-                    .FirstAsync(cancellationToken);
+                var car = await repositoryCarro
+                    .GetAll()
+                    .ToListAsync(cancellationToken);
 
-                return documento;
-            }
+                return car;
         }
+     }
 }
